@@ -34,13 +34,4 @@ CREATE TABLE Cenik (
 );
 """)
 
-# cursor.execute(f"INSERT INTO Napoje (NAME, INGREDIENTS) \
-#         VALUES (?,?)", ('Kola', 'Tomato, Cheese'))
-# conn.commit()
-
-
-# cursor.execute('''SELECT * FROM Napoje''')
-# data = cursor.fetchall()
-# print(data)
-
 conn.close()
